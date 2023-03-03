@@ -1,13 +1,13 @@
 # Jquery::Sortable::Rails
 
-jquery_sortable_rails is a Rails wrapper gem for the jQuery Sortable (https://johnny.github.io/jquery-sortable/). It provides an easy way to include the jQuery Sortable library into your Rails application.
+jquery-sortable-rails is a Rails wrapper gem for the jQuery Sortable (https://johnny.github.io/jquery-sortable/). It provides an easy way to include the jQuery Sortable library into your Rails application.
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'jquery_sortable_rails'
+gem 'jquery-sortable-rails'
 ```
 
 And then execute:
