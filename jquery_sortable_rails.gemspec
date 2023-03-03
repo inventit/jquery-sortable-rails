@@ -1,17 +1,17 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "jquery/sortable/rails/version"
+require "jquery_sortable_rails/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "jquery-sortable-rails"
-  spec.version       = Jquery::Sortable::Rails::VERSION
+  spec.name          = "jquery_sortable_rails"
+  spec.version       = JquerySortableRails::VERSION
   spec.authors       = ["tnakazawa"]
   spec.email         = ["tnakazawa@inventit.jp"]
 
   spec.summary       = %q{Integrate jquery-sortable assets in your Rails asset pipeline}
   spec.description   = %q{Wrap jquery-sortable and provide the assets as a gem}
-  spec.homepage      = "https://github.com/inventit/jquery-sortable-rails"
+  spec.homepage      = "https://github.com/inventit/jquery_sortable_rails"
   spec.license       = "MIT"
 
   # Specify which files should be added to the gem when it is released.
